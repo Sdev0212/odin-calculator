@@ -24,6 +24,7 @@ body h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5px 0;
 }
 
 #display {
@@ -61,12 +62,12 @@ body h1 {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2%;
     padding: 7px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
-.button {
+.btn {
     background-color: beige;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .wide {
