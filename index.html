@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="calculator.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
 </head>
 <body>
+    <h1>Handy Calculator</h1>
     <div id="calc-container">
-        <div id="display"></div>
+        <div id="display">
+            <div id="previous">calc</div>
+            <div id="current">ans</div>
+        </div>
         <div id="buttons">
-            <div class="button" id="clear"></div>
-            <div class="button operation" id="add"></div>
-            <div class="button operation" id="subtract"></div>
-            <div class="button operation" id="multiply"></div>
-            <div class="button operation" id="divide"></div>
-            <div class="button number" id="nine"></div>
-            <div class="button number" id="eight"></div>
-            <div class="button number" id="seven"></div>
-            <div class="button number" id="six"></div>
-            <div class="button number" id="five"></div>
-            <div class="button number" id="four"></div>
-            <div class="button number" id="three"></div>
-            <div class="button number" id="two"></div>
-            <div class="button number" id="one"></div>
-            <div class="button number" id="zero"></div>
-            <div class="button" id="decimal"></div>
-       </div>
+            <button class="button wide" id="clear">clear</button>
+            <button class="button wide" id="delete">delete</button>
+            <button class="button" id="seven">7</button>
+            <button class="button" id="eight">8</button>
+            <button class="button" id="nine">9</button>
+            <button class="button" id="add">+</button>
+            <button class="button" id="four">4</button>
+            <button class="button" id="five">5</button>
+            <button class="button" id="six">6</button>
+            <button class="button" id="subtract">-</button>
+            <button class="button" id="one">1</button>
+            <button class="button" id="two">2</button>
+            <button class="button" id="three">3</button>
+            <button class="button" id="multiply">*</button>
+            <button class="button" id="decimal">.</button>
+            <button class="button" id="zero">0</button>
+            <button class="button" id="equals">=</button>
+            <button class="button" id="divide">/</button>
+        </div>
     </div>
 </body>
 </html>
