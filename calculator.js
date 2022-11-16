@@ -72,8 +72,7 @@ function setOperation(operator) {
     firstNum = currentDisplay.textContent;
     operation = operator
     previousDisplay.textContent = `${firstNum} ${operation}`
-    shouldReset = true
-    
+    resetDisplay();    
 }
 
 //calculations
@@ -92,6 +91,7 @@ function evaluate() {
     )
     previousDisplay.textContent = `${firstNum} ${operation} ${secondNum} =`
     operation = null
+    shouldReset = true
 }
 
 function roundResult(ans) {
